@@ -2,9 +2,9 @@
 import time
 import os
 
-sec = 58
-min = 58
-hr = 24
+sec = 00
+min = 00
+hr = 00
 
 while True:
 	sec += 1
@@ -26,5 +26,5 @@ while True:
 		else:
 			continue
 	else:
-		print(f'{hr}:{min}:{sec}')
+		print(f"{hr:02}:{min:02}:{sec:02}")
 		continue
